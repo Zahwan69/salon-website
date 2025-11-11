@@ -1,2 +1,2 @@
 This is a project i am doing to improve knowledge on website development i am creating a simple saloon page so far only created a simple homepage and team page using react and tailwind css using pages route i will create the backend later.
-BRRR
+BRRR zamm
