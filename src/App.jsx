@@ -5,6 +5,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage.jsx'
 import TeamsPage from './pages/TeamsPage.jsx'
+import RegisterPage from './pages/RegisterPage.jsx'
 import Layout from './components/layout.jsx'
 
 
@@ -16,6 +17,7 @@ function App() {
     <Routes>
       <Route path ="/" element={<Layout><HomePage /> </Layout>} />
       <Route path ="/team" element={<Layout><TeamsPage /></Layout>} />
+      <Route path ="/register" element={<Layout><RegisterPage /></Layout>} />
       <Route path ="/services" element={<Layout><TeamsPage /></Layout>} />
       <Route path ="*" element={<Layout><h1>404: Page Not Found</h1></Layout>} />
     </Routes>

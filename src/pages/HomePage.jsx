@@ -6,7 +6,7 @@ const HomePage = () => {
             style={{ backgroundImage: "url('salon-hero-bg')" }}>
                 <div className="absolute inset-0 bg-black opacity-40"></div>
                 <div className="relative z-10 text-center px-4">
-                    <h1 className="text-6xl md:text-8xl font-serif font-extrabold tracking-tight mb-4">WayMoreBeautiful </h1>
+                    <h1 className="text-6xl md:text-8xl font-serif font-extrabold tracking-tight mb-4">WayMoreBeautiful Beauty Bar & Esthetics</h1>
                     <p className="text-xl md:text-2xl font-light mb-8 max-w-2xl mx-auto">
                         Elevate Your Style. Experience Luxury.
                     </p>
